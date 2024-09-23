@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Application form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="validate.jspx">
+            Enter Your Name: <input type="text" name="name"/><br>
+            Enter Your Age: <input type="text" name="age"/><br>
+            Select Hobbies: 
+            <input type="checkbox" id="hobby" name="hobby" value="singing"> Singing 
+            <input type="checkbox" id="hobby" name="hobby" value="readBooks"> Reading Books 
+            <input type="checkbox" id="hobby" name="hobby" value="football"> Playing Football<br>
+            Enter E-mail: <input type="email" name="mail"><br>
+            Select Gender: 
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other<br>
+            <input type="hidden" name="error" value="">
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
