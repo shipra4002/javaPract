@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Room reservation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="RRServlet">
+            <h1>Room booking</h1>
+            <h3>Customer Name: <input type="text" name="cname"><br/>
+            Customer Mobile Number: <input type="text" name="cno"><br/>
+            Room Type: <input type="radio" name="rtype" value="deluxe"> Deluxe
+            <input type="radio" name="rtype" value="super deluxe"> Super Deluxe
+            <input type="radio" name="rtype" value="suit"> Suit<br/>
+            <input type="submit" value="Book"></h3>
+        </form>
+    </body>
+</html>
